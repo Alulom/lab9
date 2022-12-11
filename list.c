@@ -14,6 +14,7 @@ void AddNode( int NewValue ){
  Root = Item;
 }
 int OsoznannieIzmenenia = 20;
+int ChangeByRemote = 79;
 void CreateList(){
  printf(" Создание списка.\n");
  Root = NULL;
