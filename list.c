@@ -13,11 +13,12 @@ void AddNode( int NewValue ){
  Item->Next = Root;
  Root = Item;
 }
+int OsoznannieIzmenenia = 20;
 void CreateList(){
  printf(" Создание списка.\n");
  Root = NULL;
  AddNode( 5 );
-AddNode( 4 );
+ AddNode( 4 );
  AddNode( 3 );
  AddNode( 2 );
  AddNode( 1 );
